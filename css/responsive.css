@@ -23,7 +23,7 @@
   .block_search-tags {
       display: none;
   }
-  .down_btn {
+  .block_down .down_btn {
     float: left;
     width: 100%;
     margin-top: 5px;
@@ -57,6 +57,22 @@
     position: relative;
     float: none;
     border-top: none;
+  }
+}
+
+/*----------------
+[Styles for devices(<800px)]
+*/
+@media (max-width: 800px) {
+  .topics_cate_list .topics_item {
+    padding: 15px;
+  }
+  .topics_cate_list .topics_item .info {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .topics_cate_list .topics_item .img_thumb {
+    display: none;
   }
 }
 
@@ -172,6 +188,21 @@
     width: 100%;
     border: none;
   }
+  .pro_detail_img img {
+    margin: 0 auto;
+  }
+  .pro_detail_info h1 {
+    text-align: center;
+  }
+  .topics_item .topics_img img {
+    width: 100%;
+  }
+  .pro_detail_info .down_btn {
+    text-align: center;
+  }
+  .pro_detail_version .table-responsive {
+    margin-bottom: 0;
+  }
 }
 
 /*----------------
@@ -185,6 +216,78 @@
   .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+
+/*----------------
+[Styles for devices(<360px)]
+*/
+@media (max-width: 480px) {
+  .topics_item .topics_thumb {
+    width: 100%;
+  }
+  .topics_item .topics_thumb img {
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .topics_item .topics_info {
+    width: calc(100% - 0px);
+    padding-left: 0;
+    text-align: center;
+  }
+  .topics_item .topics_info .editors_author {
+    line-height: 30px;
+  }
+}
+
+/*----------------
+[Styles for devices(<360px)]
+*/
+@media (max-width: 360px) {
+  .product_items .product_item {
+    width: 100%;
+  }
+  .copyright {
+    text-align: left;
+    line-height: 20px;
+  }
+  .copyright a {
+    display: block;
+    margin-left: 0;
+    padding-left: 15px;
+  }
+  .copyright a:before {
+    content: ".";
+    color: #666;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .block_related .news_items .news_item {
+    width: 100%;
+  }
+  .topics_item .topics_info .editors_text {
+    margin-bottom: 10px;
+  }
+  .details-rating .rating-info span {
+    display: none;
+  }
+}
+
+/*----------------
+[Styles for devices(<360px)]
+*/
+@media (max-width: 320px) {
+  .pro_detail_info h1 {
+    font-size: 27px;
+  }
+  .block_faq .down_btn .btn_down {
+    display: block;
+    width: 100px;
+    margin: 3px 0;
   }
 }
 
