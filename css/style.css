@@ -698,6 +698,9 @@ img {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.block_page_child .block_popular_categories ul li {
+  width: 100%;
+}
 .block_popular_categories ul li a {
   color: #666;
   font-size: 15px;
