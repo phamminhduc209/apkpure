@@ -137,9 +137,8 @@ img {
   font-size: 15px;
 }
 .nav_menu_item {
-  display: block;
+  display: inline-block;
   position: relative;
-  float: right;
   border-top: 2px solid #fafafa;
 }
 .nav_menu_item > a {
