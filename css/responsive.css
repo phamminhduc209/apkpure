@@ -1,14 +1,14 @@
 /*------------------------------------------------------------------
 [Table of contents]
-1. 	[Styles for devices(<1200px)]
-2. 	[Styles for devices(<992px)]
-3. 	[Styles for devices(>992px)]
-4. 	[Styles for devices(<991px)]
-5. 	[Styles for devices(>=992px and <=481px)]
-6. 	[Styles for devices(<600px)]
-7. 	[Styles for devices(<480px)]
-8. 	[Styles for devices(<375px)]
-9. 	[Styles for devices(<320px)]
+1.  [Styles for devices(<1200px)]
+2.  [Styles for devices(<992px)]
+3.  [Styles for devices(>992px)]
+4.  [Styles for devices(<991px)]
+5.  [Styles for devices(>=992px and <=481px)]
+6.  [Styles for devices(<600px)]
+7.  [Styles for devices(<480px)]
+8.  [Styles for devices(<375px)]
+9.  [Styles for devices(<320px)]
 10. Compare
 ------------------------*/
 
@@ -103,7 +103,7 @@
     float: none;
     display: block;
     position: fixed !important;
-    left: -60% !important;
+    right: -60% !important;
     width: 60%;
     top: 0;
     bottom: 0;
@@ -115,11 +115,11 @@
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    right: auto !important;
+    left: auto !important;
     border-right: 1px solid #ddd;
   }
   .block_menu_top.has-open {
-    left: 0 !important;
+    right: 0 !important;
   }
   body.menu-open {
     overflow: hidden;
