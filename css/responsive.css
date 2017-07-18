@@ -1,14 +1,6 @@
 /*------------------------------------------------------------------
 [Table of contents]
-1.  [Styles for devices(<1200px)]
-2.  [Styles for devices(<992px)]
-3.  [Styles for devices(>992px)]
-4.  [Styles for devices(<991px)]
-5.  [Styles for devices(>=992px and <=481px)]
-6.  [Styles for devices(<600px)]
-7.  [Styles for devices(<480px)]
-8.  [Styles for devices(<375px)]
-9.  [Styles for devices(<320px)]
+1.  
 10. Compare
 ------------------------*/
 
@@ -20,9 +12,9 @@
   .block_right {
     width: 100%;
   }
-  .block_search-tags {
+  /*.block_search-tags {
       display: none;
-  }
+  }*/
   .block_down .down_btn {
     float: left;
     width: 100%;
@@ -36,10 +28,12 @@
 */
 @media (max-width: 991px) {
   .block_logo {
+    float: none;
     width: 100%;
     text-align: center;
     height: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
   }
   .block_logo img {
     margin-top: 0;
@@ -57,6 +51,9 @@
     position: relative;
     float: none;
     border-top: none;
+  }
+  .block_search_top {
+    display: block;
   }
 }
 
@@ -202,6 +199,9 @@
   }
   .pro_detail_version .table-responsive {
     margin-bottom: 0;
+  }
+  .block_search_top {
+    margin-bottom: 10px;
   }
 }
 
