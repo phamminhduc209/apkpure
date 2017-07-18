@@ -12,9 +12,9 @@
   .block_right {
     width: 100%;
   }
-  /*.block_search-tags {
+  .block_search-tags {
       display: none;
-  }*/
+  }
   .block_down .down_btn {
     float: left;
     width: 100%;
